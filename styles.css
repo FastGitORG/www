@@ -31,11 +31,12 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-a{
+
+/*a{#
 	text-decoration: none;
 	text-transform: none;
 	color: #4A90E2;
-}
+}*/
 .tlinks{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
 body {
 	line-height: 1;
@@ -174,6 +175,16 @@ h1.name {
 	font-size: 16px;
 	color: #81899C;
 	line-height: 22px;
+}
+
+.list-card a {
+	font-size: 20px;
+    font-weight: 600;
+    color: #5B6A9A;
+    line-height: 26px;
+	margin-bottom: 8px;
+	display: block;
+	text-decoration: none;
 }
 
 /*skill and intrests ends*/
@@ -444,6 +455,7 @@ li .description {
 		margin-top: 2050px;
 	}
 	}
+
 
 
 /* End of all :P*/
