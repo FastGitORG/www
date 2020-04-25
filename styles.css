@@ -1,8 +1,5 @@
-
 /*Load google font*/
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
-
-
 
 /* Reset Styles */
 
@@ -79,13 +76,12 @@ div , footer {
 
 /* Reset ends */
 
-
 /*Hero section*/
 
 .container {
 	max-width: 1100px;
 	height: auto;
-	margin: 60px auto;
+	margin: auto;
 }
 
 .hero {
@@ -264,10 +260,7 @@ h1.name {
 
 /* Achievements ends */
 
-
-
 /* Timeline styles*/
-
 
 ol {
 	position: relative;
@@ -285,7 +278,7 @@ ol::after {
 	display: block;
 	width: 0;
 	height: 0;
-  	border-radius: 10px;
+    border-radius: 10px;
 	border: 0px solid #31708F;
 }
 ol::before {
@@ -296,7 +289,7 @@ ol::after {
 	border: 0px solid transparent;
 	border-right: 0;
 	border-left: 20px solid #31708F;
-  	border-radius: 3px;
+    border-radius: 3px;
 }
 
 /* ---- Timeline elements ---- */
@@ -305,15 +298,15 @@ li {
 	display: inline-block;
 	float: left;
 	width: 25%;
-  	height: 50px;
+    height: 50px;
 }
 li .line {
-  position: absolute;
-  top: -47px;
-  left: 1%;
-  font-size: 20px;
-  font-weight: 600;
-  color: #04143A;
+    position: absolute;
+    top: -47px;
+    left: 1%;
+    font-size: 20px;
+    font-weight: 600;
+    color: #04143A;
 }
 li .point {
 	content: "";
@@ -325,31 +318,31 @@ li .point {
 	border: 4px solid #fff;
 	border-radius: 10px;
 	background: #4A90E2;
-  position: absolute;
+    position: absolute;
 }
 li .description {
-  display: none;
-  padding: 10px 0;
-  margin-top: 20px;
-  position: relative;
-  font-weight: normal;
-  z-index: 1;
-  max-width: 95%;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 25px;
-  color: #5B6A9A;
+    display: none;
+    padding: 10px 0;
+    margin-top: 20px;
+    position: relative;
+    font-weight: normal;
+    z-index: 1;
+    max-width: 95%;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    color: #5B6A9A;
 }
 .description::before {
-  content: '';
-  width: 0; 
-  height: 0; 
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-bottom: 5px solid #f4f4f4;
-  position: absolute;
-  top: -5px;
-  left: 43%;
+    content: '';
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #f4f4f4;
+    position: absolute;
+    top: -5px;
+    left: 43%;
 }
 
 
@@ -361,15 +354,13 @@ li .description {
 
 /* ---- Hover effects ---- */
 li:hover {
-  color: #48A4D2;
+    color: #48A4D2;
 }
 li .description {
-  display: block;
+    display: block;
 }
 
 /*timeline ends*/
-
-
 
 /* Media queries*/
 
@@ -455,7 +446,5 @@ li .description {
 		margin-top: 2050px;
 	}
 	}
-
-
 
 /* End of all :P*/
