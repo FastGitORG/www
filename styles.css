@@ -203,7 +203,8 @@ h1.name {
 	vertical-align: top;
 	border-radius: 10px;
 	text-align: center;
-	padding-top: 50px
+	padding-top: 50px;
+	transition: transform .3s;
 }
 
 .card-active , .card:hover{
