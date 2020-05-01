@@ -132,7 +132,6 @@ h1.name {
 	width: 49.7%;
 	height: 50px;
 }
-
 .section-title {
 	font-size: 20px;
 	font-weight: 600;
@@ -142,23 +141,19 @@ h1.name {
 .list-card {
 	margin: 30px 0;
 }
-
 .list-card .card-name , .list-card div{
 	display: inline-block;
 	vertical-align: top;
 }
-
 .list-card .card-name {
 	margin-right: 15px;
 	color: #4A90E2;
 	font-weight: 600;
 	width: 100px;
 }
-
 .list-card div {
 	width: 70%;
 }
-
 .list-card h3 {
 	font-size: 20px;
 	font-weight: 600;
@@ -166,13 +161,11 @@ h1.name {
 	line-height: 26px;
 	margin-bottom: 8px;
 }
-
 .list-card div span {
 	font-size: 16px;
 	color: #81899C;
 	line-height: 22px;
 }
-
 .list-card a {
 	font-size: 20px;
     font-weight: 600;
@@ -215,19 +208,16 @@ h1.name {
 	cursor: pointer;
 }
 
-
 .counter {
 	display: inline-block;
 	max-width: 160px;
 }
-
 .counter span {
 	font-size: 35px;
 	font-weight: 300;
 	color: #5B6A9A;
 	vertical-align: top;
 }
-
 .counter h2 {
 	font-size: 95px;
 	font-weight: 300;
@@ -236,7 +226,6 @@ h1.name {
 	color: #5B6A9A;
 	letter-spacing: -5px;
 }
-
 .card-meta {
 	vertical-align: top;
 	display: inline-block;
@@ -245,14 +234,12 @@ h1.name {
 	margin-top: 15px;
 	margin-left: 15px;
 }
-
 .card-meta h3 {
 	font-size: 20px;
 	font-weight: 800;
 	color: #5B6A9A;
 	margin-bottom: 5px;
 }
-
 .card-meta span{
 	color: #81899C;
 	line-height: 20px;
@@ -269,7 +256,6 @@ ol {
 	margin: 100px 0;
 	height: 2px;
 	background: #EEF0F7;
-
 }
 ol::before,
 ol::after {
@@ -346,7 +332,6 @@ li .description {
     left: 43%;
 }
 
-
 .timeline .date{
 	font-size: 14px;
 	color: #81899C;
@@ -391,7 +376,7 @@ li .description {
 	.card h2 {
 		font-size: 70px;
 	}
-		.card , .sections {
+	.card , .sections {
 		width: 100%;
 		height: auto;
 		margin: 10px 0;
@@ -402,7 +387,6 @@ li .description {
 		border: none;
 		background-color: rgba(0,0,0,0);
 	}
-
 	.timeline li{
 		margin-top: 70px;
 		height: 150px;
