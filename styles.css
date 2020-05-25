@@ -281,10 +281,24 @@ ul.nav-items > li {
   .logo {
     margin: 0;
   }
+
+  .card {
+    padding: 0 !important;
+    margin: 0 2rem !important;
+  }
+
+  .card:not(:last-child) {
+    margin-right: 0rem;
+    margin-bottom: 2rem !important;
+  }
 }
 
 @media (max-width: 768px) {
   .d-t-none {
     display: none;
+  }
+
+  .d-flex {
+    flex-direction: column;
   }
 }
