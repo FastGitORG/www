@@ -112,12 +112,44 @@ ul.nav-items > li {
   line-height: 1.5;
 }
 
+.card {
+  /* border: 2px solid #d9e7f8; */
+  box-shadow: 0 2px 4px rgba(27, 31, 35, 0.15);
+  border-radius: 5px;
+  color: #333;
+  min-width: 250px;
+}
+
+.card:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.description {
+  border-top: 1px solid #e1e4e8;
+}
+
 /* -----------------------------
 工具类
 ----------------------------- */
 
 .text-center {
   text-align: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.w-half {
+  width: 50%;
 }
 
 .c-p {
@@ -157,23 +189,33 @@ ul.nav-items > li {
 }
 
 .px-1 {
-  padding: 0 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .px-2 {
-  padding: 0 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .py-1 {
-  padding: 1rem 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .py-2 {
-  padding: 2rem 0;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .py-4 {
-  padding: 4rem 0;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.py-5 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .mb-1 {
@@ -205,6 +247,16 @@ ul.nav-items > li {
 }
 
 .mr-2 {
+  margin-right: 2rem;
+}
+
+.my-2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.mx-2 {
+  margin-left: 2rem;
   margin-right: 2rem;
 }
 
