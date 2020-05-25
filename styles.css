@@ -4,6 +4,8 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'Microsoft Yahei',
+    'Hiragino Sans GB', 'HeitiSC', 'WenQuanYi Micro Hei', sans-serif;
 }
 
 body {
