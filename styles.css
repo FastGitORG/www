@@ -37,13 +37,9 @@ a:active {
 ----------------------------- */
 .header {
   height: 6rem;
-  /* padding: 0 5%; */
   display: flex;
   align-items: center;
-}
-
-.logo {
-  /* padding: 0 1rem; */
+  user-select: none;
 }
 
 ul.nav-items {
@@ -130,6 +126,34 @@ ul.nav-items > li {
   border-top: 1px solid #e1e4e8;
 }
 
+.nav-btn {
+  position: absolute;
+  top: 2.99rem;
+  left: 2rem;
+  width: 3rem;
+  height: 3rem;
+  user-select: none;
+  cursor: pointer;
+}
+
+.nav-icon,
+.nav-icon::before,
+.nav-icon::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  height: 1.5px;
+  width: 1.8rem;
+  background: rgb(121, 121, 121);
+}
+
+.nav-icon::before {
+  top: -0.8rem;
+}
+
+.nav-icon::after {
+  top: 0.8rem;
+}
 /* -----------------------------
 工具类
 ----------------------------- */
@@ -140,6 +164,10 @@ ul.nav-items > li {
 
 .d-flex {
   display: flex;
+}
+
+.d-none {
+  display: none;
 }
 
 .ai-center {
@@ -269,7 +297,33 @@ ul.nav-items > li {
 @media (max-width: 768px) {
   .header {
     padding: 0;
+    padding-top: 1rem;
+    height: auto;
     justify-content: center;
+    flex-direction: column;
+  }
+
+  .nav-items {
+    padding-top: 1rem;
+    width: auto;
+    text-align: center;
+  }
+
+  ul.nav-items > li {
+    display: block;
+    padding: 1rem 0rem;
+  }
+
+  ul.nav-items a {
+    padding: 1rem 10rem;
+  }
+
+  .nav-checkbox:checked ~ .nav-items {
+    display: block;
+  }
+
+  .nav-checkbox ~ .nav-items {
+    display: none;
   }
 
   .content {
@@ -302,5 +356,9 @@ ul.nav-items > li {
 
   .d-flex {
     flex-direction: column;
+  }
+
+  .d-t-block {
+    display: block;
   }
 }
