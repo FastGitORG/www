@@ -34,14 +34,14 @@ a:active {
 业务代码
 ----------------------------- */
 .header {
-  height: 5rem;
-  padding: 0 5%;
+  height: 6rem;
+  /* padding: 0 5%; */
   display: flex;
   align-items: center;
 }
 
 .logo {
-  padding: 0 1rem;
+  /* padding: 0 1rem; */
 }
 
 ul.nav-items {
@@ -56,21 +56,25 @@ ul.nav-items > li {
   border: none;
   border-radius: 0;
   cursor: pointer;
+  color: white;
   text-transform: uppercase;
+  height: 70%;
+  padding: 0 3rem;
+  border-radius: 4rem;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  transition: all ease-in-out;
 }
 
 .btn-join {
-  height: 100%;
-  padding: 0 2rem;
+  margin: 0 1.5rem;
   background-color: #4a90e2;
-  color: white;
 }
 
 .btn-donate {
-  height: 100%;
-  padding: 0 2rem;
   background-color: rgb(232, 91, 70);
-  color: white;
 }
 
 .content {
@@ -106,28 +110,6 @@ ul.nav-items > li {
   font-size: 3rem;
   font-weight: 500;
   line-height: 1.5;
-}
-
-/* -----------------------------
-媒体查询 
------------------------------ */
-
-@media (max-width: 26.5625em) {
-  .header {
-    padding: 0;
-  }
-
-  .btn {
-    display: none;
-  }
-
-  .content {
-    padding: 0;
-  }
-
-  .intro {
-    padding: 5rem 3rem 3rem 3rem;
-  }
 }
 
 /* -----------------------------
@@ -167,11 +149,11 @@ ul.nav-items > li {
 }
 
 .pr-1 {
-  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .pr-2 {
-  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .px-1 {
@@ -190,6 +172,10 @@ ul.nav-items > li {
   padding: 2rem 0;
 }
 
+.py-4 {
+  padding: 4rem 0;
+}
+
 .mb-1 {
   margin-bottom: 1rem;
 }
@@ -204,4 +190,49 @@ ul.nav-items > li {
 
 .mt-2 {
   margin-top: 2rem;
+}
+
+.ml-1 {
+  margin-left: 1rem;
+}
+
+.ml-2 {
+  margin-left: 2rem;
+}
+
+.mr-1 {
+  margin-right: 1rem;
+}
+
+.mr-2 {
+  margin-right: 2rem;
+}
+
+/* -----------------------------
+媒体查询 
+----------------------------- */
+
+@media (max-width: 768px) {
+  .header {
+    padding: 0;
+    justify-content: center;
+  }
+
+  .content {
+    padding: 0;
+  }
+
+  .intro {
+    padding: 5rem 3rem 3rem 3rem;
+  }
+
+  .logo {
+    margin: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .d-t-none {
+    display: none;
+  }
 }
