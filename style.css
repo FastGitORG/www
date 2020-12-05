@@ -184,7 +184,7 @@ h1.name {
 .cards {
 	max-width: 1120px;
 	display: block;
-	margin-top: 280px;
+	margin-top: 350px;
 }
 
 .card {
@@ -349,7 +349,7 @@ li .description {
 /*timeline ends*/
 
 /* Media queries*/
-
+/*
 @media(max-width: 1024px){
 	.container {
 		padding: 15px;
@@ -359,7 +359,7 @@ li .description {
 		margin-top: 250px;
 	}
 }
-
+*/
 @media(max-width: 768px){
 	.container {
 		padding: 15px;
@@ -392,7 +392,6 @@ li .description {
 		height: 150px;
 	}
 }
-
 
 @media(max-width: 425px) {
 	h1.name {
@@ -430,6 +429,9 @@ li .description {
 	footer {
 		margin-top: 2050px;
 	}
+	#text-top-margin-fix {
+		margin-top: 0px;
+	}
 }
 
 .github-corner:hover .octo-arm {
@@ -446,5 +448,11 @@ li .description {
 	}
 	.github-corner .octo-arm {
 		animation:octocat-wave 560ms ease-in-out;
+	}
+}
+
+@media(min-width: 425px) {
+	#text-top-margin-fix {
+		margin-top: -5px;
 	}
 }
