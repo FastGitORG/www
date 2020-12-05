@@ -104,7 +104,7 @@ h1.name {
 	margin-left: 20px;
 	border-radius: 5px;
 	display: inline-block;
-	padding: 15px 25px;
+	padding: 10px 10px;
 }
 
 .website {
@@ -432,6 +432,10 @@ li .description {
 	#text-top-margin-fix {
 		margin-top: 0px;
 	}
+
+	#status-text {
+		margin-top: 0px;
+	}
 }
 
 .github-corner:hover .octo-arm {
@@ -454,5 +458,8 @@ li .description {
 @media(min-width: 425px) {
 	#text-top-margin-fix {
 		margin-top: -5px;
+	}
+	#status-text {
+		font-size: 30px;
 	}
 }
