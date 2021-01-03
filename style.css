@@ -463,3 +463,9 @@ li .description {
 		font-size: 30px;
 	}
 }
+
+.yaofan {
+	background-color: #FFCCCC;
+	color: rgba(204,0,0,255);
+	font-family: "Microsoft Yahei", "微软雅黑";
+}
