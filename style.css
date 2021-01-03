@@ -470,3 +470,10 @@ li .description {
 	font-family: "Microsoft Yahei", "微软雅黑";
 	text-decoration: none;
 }
+
+.footer-text {
+	width: auto;
+	color: #04143A;
+	margin-right: 10px;
+	height: 30px;
+}
