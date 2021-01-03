@@ -468,4 +468,5 @@ li .description {
 	background-color: #FFCCCC;
 	color: rgba(204,0,0,255);
 	font-family: "Microsoft Yahei", "微软雅黑";
+	text-decoration: none;
 }
