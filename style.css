@@ -471,6 +471,13 @@ li .description {
 	text-decoration: none;
 }
 
+.ads {
+	background-color: #ffc10742;
+	color: #ffe607;
+	font-family: "Microsoft Yahei", "微软雅黑";
+	text-decoration: none;
+}
+
 .footer-text {
 	width: auto;
 	color: #04143A;
